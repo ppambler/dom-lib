@@ -1,0 +1,21 @@
+#link2
+{
+    background-color: aqua;
+}
+
+#box6
+{
+    font-size: 20px;
+
+    width: 100px;
+    height: 100px;
+
+    color: yellowgreen;
+    border: 2px solid salmon;
+}
+
+.box6-test
+{
+    color: yellow;
+    background-color: sandybrown;
+}
