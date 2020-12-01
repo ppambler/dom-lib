@@ -4,9 +4,14 @@
   "main": "index.js",
   "scripts": {
     "serve": "rm -rf .cache dist && parcel src/index.html",
-    "build": "rm -rf .cache dist && parcel build src/index.html --public-url ./"
+    "build": "rm -rf .cache dist && parcel build src/index.html --public-url ./",
+    "serve1": "rm -rf .cache dist1 && parcel src/jquery.html -d dist1",
+    "build1": "rm -rf .cache dist1 && parcel build src/jquery.html -d dist1 --public-url ./"
   },
   "repository": "git@github.com:ppambler/dom-lib.git",
   "author": "Ambler <allinlbj@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
 }
